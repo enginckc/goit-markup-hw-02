@@ -49,10 +49,13 @@ background-color: #ffffff;
 nav ul li {
    list-style-type:none;
 }
-nav ul li a:hover {
+nav ul li a:hover{
    color:#404bbf;
 }
-nav ul li a:hover:focus {
+nav ul li a:hover:focus{
+   color: #404bbf;
+}
+nav ul li a:hover:active {
    color: #404bbf;
 }
 
