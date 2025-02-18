@@ -36,7 +36,7 @@ background-color: #ffffff;
 .button-one{
    cursor:pointer;
 }
-.sec2-title{
+.section-title{
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -49,10 +49,10 @@ background-color: #ffffff;
 nav ul li {
    list-style-type:none;
 }
-.toptag:hover{
+nav ul li a:hover {
    color:#404bbf;
 }
-.toptag:hover:focus{
+nav ul li a:hover:focus {
    color: #404bbf;
 }
 
@@ -70,10 +70,10 @@ nav ul li {
 address ul li{
    list-style-type: none;
 }
-address ul li a:hover{
+address ul li a:hover {
    color: #404bbf;
 }
-address ul li a:hover:focus{
+address ul li a:hover:focus {
    color: #404bbf;
 }
 address ul li a{
