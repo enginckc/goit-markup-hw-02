@@ -27,10 +27,10 @@ background-color: #ffffff;
    line-height: 24px;
    letter-spacing: 0.04em;
 }
-.button-one:hover{
-   background-color: #404bbf;
+.button-one:hover,{
+background-color: #404bbf;
 }
-.button-one:hover:focus{
+.button-one:focus{
    background-color: #404bbf;
 }
 .button-one{
@@ -52,7 +52,7 @@ nav ul li {
 nav ul li a:hover{
    color:#404bbf;
 }
-nav ul li a:hover:focus{
+nav ul li a:focus{
    color: #404bbf;
 }
 nav ul li a:hover:active {
