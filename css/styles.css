@@ -8,9 +8,7 @@ background-color: #ffffff;
 }
 .center{
    background-color: #2E2F42;
-   width: 900px;
-   height: 350px;
-   top:72px;
+   
 }
 .title-one{
    color: #ffffff;
@@ -18,12 +16,8 @@ background-color: #ffffff;
    font-family: "Roboto",sans-serif;
    font-size: 56px;
    line-height: 1.07;
-  letter-spacing: 0.02;
-  width: 896px;
-  height: 220px;
-  top: 860px;
-  left: 472px;
-}
+  letter-spacing: 0.02em;
+  }
 .button-one{
    background: #4d5ae5;
    color:#ffffff;
@@ -32,13 +26,6 @@ background-color: #ffffff;
    font-size: 16px;
    line-height: 24px;
    letter-spacing: 0.04em;
-   width: 160px;
-   height: 56px;
-   top: 128px;
-   left: 636px;
-   padding: 20px;
-   border: 20px;
-   border:1px solid blueviolet;
 }
 .button-one:hover{
    color: #404bbf;
@@ -58,15 +45,17 @@ background-color: #ffffff;
 
 }
 
-.title-two{
-   text-align: center;
-}
+
 nav ul li {
    list-style-type:none;
 }
 .toptag:hover{
    color:#404bbf;
 }
+.toptag:hover:focus{
+   color: #404bbf;
+}
+
 .toptag{
    color: #2E2F42;
    font-family: "Roboto", sans-serif;
@@ -74,8 +63,6 @@ nav ul li {
    font-size: 16px;
    letter-spacing: 0.02em;
    line-height: 24px;
-   width: 66px;
-   height: 24px;
    }
    address{
       font-style: normal;
@@ -96,8 +83,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-width: 151px;
-height: 24px;
 }
 
 section ul li{
@@ -110,8 +95,6 @@ footer{
    background-color: #2E2F42;
    text-align: left;
    color: #F4F4FD;
-   width: 900px;
-   height: 150px;
    }
 .title-three{
 text-align: center;
@@ -122,8 +105,6 @@ text-align: center;
    font-weight: 700;
    font-size: 18px;
    line-height: 1.17px;
-   width: 71px;
-   height: 21px;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    }
@@ -179,7 +160,6 @@ footer p{
    font-size: 36px;
    color: #2E2F42;
    line-height: 1.11;
-   text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize;
 }
