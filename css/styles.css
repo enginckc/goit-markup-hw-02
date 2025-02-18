@@ -69,11 +69,9 @@ nav ul li a:hover:active {
 address ul li{
    list-style-type: none;
 }
-address ul li a:hover {
-   color: #404bbf;
-}
-address ul li a:hover:focus {
-   color: #404bbf;
+.addtag:hover, 
+.addtag:focus{
+   color:#404bbf;
 }
 address ul li a{
 color:#434455;
