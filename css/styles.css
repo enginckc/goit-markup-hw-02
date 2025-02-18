@@ -28,10 +28,10 @@ background-color: #ffffff;
    letter-spacing: 0.04em;
 }
 .button-one:hover{
-   color: #404bbf;
+   background-color: #404bbf;
 }
 .button-one:hover:focus{
-   color: #404bbf;
+   background-color: #404bbf;
 }
 .button-one{
    cursor:pointer;
@@ -104,7 +104,7 @@ text-align: center;
    font-family: "Raleway", sans-serif;
    font-weight: 700;
    font-size: 18px;
-   line-height: 1.17px;
+   line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    }
@@ -112,7 +112,7 @@ text-align: center;
 .footer-logo-two{
    color:#F4F4FD;
    text-transform: uppercase;
-   line-height: 1.17px;
+   line-height: 1.17;
 }
 footer p{
    text-align: left;
@@ -140,7 +140,7 @@ footer p{
    font-size: 18px;
    line-height: 21px;
 }
-.sec2-text{
+.section-text{
    font-family: "Roboto", sans-serif;
    font-weight: 400;
    font-size: 16px;
@@ -195,4 +195,10 @@ footer p{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+}
+.name-tag{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
 }
